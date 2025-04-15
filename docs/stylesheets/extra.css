@@ -1,0 +1,53 @@
+﻿/* Personalização AWS Style para Material MkDocs */
+
+:root {
+  --md-primary-fg-color: #ff9900; /* AWS Orange */
+  --md-accent-fg-color: #ffb300; /* AWS Amber */
+  --md-code-bg-color: #1e1e1e;
+  --md-default-bg-color: #121212;
+}
+
+/* Menu lateral com borda leve */
+.md-sidebar {
+  border-right: 1px solid #333;
+}
+
+/* Logo mais alinhado */
+.md-header__button.md-logo {
+  margin-right: 1rem;
+}
+
+/* Links do menu com efeito hover estilo AWS */
+.md-nav__link:hover {
+  background-color: rgba(255, 153, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Botões com estilo AWS */
+.md-button {
+  background-color: #ff9900;
+  color: white;
+  border-radius: 4px;
+}
+
+.md-button:hover {
+  background-color: #e68a00;
+}
+
+/* Código fonte mais legível */
+code, pre {
+  background-color: #1e1e1e;
+  color: #ffb300;
+}
+
+/* Footer customizado */
+.md-footer-meta {
+  background-color: #1e1e1e;
+  color: #bbb;
+}
+
+/* Substituir logo por uma imagem da web */
+.md-header__button.md-logo img {
+  content: url("https://community.aws/_next/image?url=https%3A%2F%2Falpha-assets.community.aws%2Fa%2F2WEEmosJ85UmV1Z0yHpNXhsg8KH.png%3FimgSize%3D646x746&w=3840&q=75");
+  height: 80px; /* ajusta a altura da imagem */
+}

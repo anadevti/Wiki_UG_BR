@@ -1,0 +1,33 @@
+site_name: AWS User Group Brasil Wiki
+
+theme:
+  name: material
+  palette:
+    - scheme: slate  # modo escuro
+      primary: deep orange  # cor principal estilo AWS
+      accent: amber  # cor de destaque secundária
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: images/placeholder.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Início: index.md
+  - Sobre: about.md
+  - Guias:
+      - Como Participar: guide/how-to-participate.md
+      - Criar Eventos: guide/create_events.md
+      - Marketing para seu UG: guide/marketing.md
+  - Recursos:
+      - Links Úteis: resources/useful-links.md
+      - Boas Práticas: resources/best-practices.md
+      - Contato: resources/contact.md
